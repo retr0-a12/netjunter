@@ -1,0 +1,7 @@
+#!bin/bash
+pkg install wget
+apt-get upgrade
+wget -O install-nethunter-termux https://offs.e>
+chmod +x install-nethunter-termux
+./install-nethunter-termux
+nethunter
